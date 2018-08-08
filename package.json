@@ -1,0 +1,29 @@
+{
+  "name": "orolo-benchmark",
+  "version": "1.0.0",
+  "description": "Simple benchmark script to test orolo against a few other natural language parsers for dates in JavaScript",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pveller/orolo-benchmark.git"
+  },
+  "author": {
+    "name": "Pavel Veller",
+    "email": "pveller@gmail.com",
+    "url": "https://www.pveller.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pveller/orolo-benchmark/issues"
+  },
+  "homepage": "https://github.com/pveller/orolo-benchmark#readme",
+  "dependencies": {
+    "@microsoft/recognizers-text-date-time": "^1.0.1",
+    "chrono-node": "^1.3.5",
+    "colors": "^1.3.1",
+    "date-fns": "^1.29.0",
+    "lodash": "^4.17.10",
+    "orolo": "^0.1.1"
+  }
+}

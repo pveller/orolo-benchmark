@@ -1,0 +1,168 @@
+{
+  "context": "2018-05-01",
+  "tests": [
+    {
+      "utterance": "I was in London yesterday",
+      "dates": ["2018-04-30"]
+    },
+    {
+      "utterance": "I am in Dallas today and tomorrow",
+      "dates": ["2018-05-01", "2018-05-02"]
+    },
+    {
+      "tip": "simple range with a -",
+      "utterance": "Traveling next week Mon - Wed",
+      "dates": ["2018-05-07", "2018-05-08", "2018-05-09"]
+    },
+    {
+      "tip": "simple range with a till",
+      "utterance": "Will be in PHL next week Mon till Wed",
+      "dates": ["2018-05-07", "2018-05-08", "2018-05-09"]
+    },
+    {
+      "tip": "[this past] will confuse my basic parser",
+      "utterance": "I was in SFO this past Tue and Wed",
+      "dates": ["2018-04-24", "2018-04-25"]
+    },
+    {
+      "tip": "Days enumeration like that tricks all NLP libraries",
+      "utterance": "Will be in Europe June 6th, 7th, and 8th",
+      "dates": ["2018-06-06", "2018-06-07", "2018-06-08"]
+    },
+    {
+      "tip": "[all next week]: business or calendar ??",
+      "utterance": "in Amsterdam all next week",
+      "dates": [
+        "2018-05-07",
+        "2018-05-08",
+        "2018-05-09",
+        "2018-05-10",
+        "2018-05-11"
+      ]
+    },
+    {
+      "utterance": "I am out 5/15, 5/18, and 5/20",
+      "dates": ["2018-05-15", "2018-05-18", "2018-05-20"]
+    },
+    {
+      "utterance": "in NYC 6th and 7th of April",
+      "dates": ["2018-04-06", "2018-04-07"]
+    },
+    {
+      "utterance": "last week Thursday till this week Tuesday",
+      "dates": [
+        "2018-04-26",
+        "2018-04-27",
+        "2018-04-28",
+        "2018-04-29",
+        "2018-04-30",
+        "2018-05-01"
+      ]
+    },
+    {
+      "utterance": "will be in London from june third till june sixth",
+      "dates": ["2018-06-03", "2018-06-04", "2018-06-05", "2018-06-06"]
+    },
+    {
+      "utterance": "I did not go anywhere last year december fifteenth",
+      "dates": ["2017-12-15"]
+    },
+    {
+      "utterance": "Traveling for the next three days",
+      "dates": ["2018-05-02", "2018-05-03", "2018-05-04"]
+    },
+    {
+      "utterance": "in NYC on April 15th and May 3rd",
+      "dates": ["2018-04-15", "2018-05-03"]
+    },
+    {
+      "utterance": "on Monday the week after next",
+      "dates": ["2018-05-14"]
+    },
+    {
+      "utterance": "was in NYC last week tuesday and will be there again next week from wednesday till friday",
+      "dates": ["2018-04-24", "2018-05-09", "2018-05-10", "2018-05-11"]
+    },
+    {
+      "utterance": "Traveling all week next week",
+      "dates": [
+        "2018-05-07",
+        "2018-05-08",
+        "2018-05-09",
+        "2018-05-10",
+        "2018-05-11"
+      ]
+    },
+    {
+      "utterance": "Traveling all week next week including the weekend",
+      "dates": [
+        "2018-05-07",
+        "2018-05-08",
+        "2018-05-09",
+        "2018-05-10",
+        "2018-05-11",
+        "2018-05-12",
+        "2018-05-13"
+      ]
+    },
+    {
+      "utterance": "will be in Dubai leaving this Thursday and returning next Monday",
+      "dates": [
+        "2018-05-03",
+        "2018-05-04",
+        "2018-05-05",
+        "2018-05-06",
+        "2018-05-07"
+      ]
+    },
+    {
+      "utterance": "in Dallas tue through friday next week and then again wed and thu the week after next",
+      "dates": [
+        "2018-05-08",
+        "2018-05-09",
+        "2018-05-10",
+        "2018-05-11",
+        "2018-05-16",
+        "2018-05-17"
+      ]
+    },
+    {
+      "utterance": "was traveling on 3rd of March and April 5th",
+      "dates": ["2018-03-03", "2018-04-05"]
+    },
+    {
+      "utterance": "in Melburn May 5th till 15th",
+      "dates": [
+        "2018-05-05",
+        "2018-05-06",
+        "2018-05-07",
+        "2018-05-08",
+        "2018-05-09",
+        "2018-05-10",
+        "2018-05-11",
+        "2018-05-12",
+        "2018-05-13",
+        "2018-05-14",
+        "2018-05-15"
+      ]
+    },
+    {
+      "utterance": "in Dallas next Tue through Fri",
+      "dates": ["2018-05-08", "2018-05-09", "2018-05-10", "2018-05-11"]
+    },
+    {
+      "utterance": "I was in NYC last week Tuesday and also Thursday the week before",
+      "dates": ["2018-04-19", "2018-04-24"]
+    },
+    {
+      "utterance": "my travel schedule for this month is 3rd, 4th, and 5th, and then also 9th and 10th",
+      "dates": [
+        "2018-05-03",
+        "2018-05-04",
+        "2018-05-05",
+        "2018-05-09",
+        "2018-05-10"
+      ]
+    }
+  ]
+}
